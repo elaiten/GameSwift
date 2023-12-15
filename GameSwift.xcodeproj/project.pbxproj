@@ -16,6 +16,15 @@
 		1B8262052B0CA69400DD376D /* GameSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8262042B0CA69400DD376D /* GameSwiftTests.swift */; };
 		1B82620F2B0CA69400DD376D /* GameSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82620E2B0CA69400DD376D /* GameSwiftUITests.swift */; };
 		1B8262112B0CA69400DD376D /* GameSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8262102B0CA69400DD376D /* GameSwiftUITestsLaunchTests.swift */; };
+		1B82621E2B0CA69F00DD376D /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B82621D2B0CA69F00DD376D /* GameModel.swift */; };
+		1B8262212B0CA78500DD376D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1B8262202B0CA78500DD376D /* SnapKit */; };
+		1B8262232B0CE94200DD376D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8262222B0CE94200DD376D /* SecondViewController.swift */; };
+		1BDA5DAE2B1627A100FBDC28 /* FirstScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDA5DAD2B1627A100FBDC28 /* FirstScreenVC.swift */; };
+		1BFA061F2B233EDE001184C8 /* GameProtocolRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA061E2B233EDE001184C8 /* GameProtocolRound.swift */; };
+		1BFA06212B233EF9001184C8 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA06202B233EF9001184C8 /* GameProtocol.swift */; };
+		1BFA06232B233F29001184C8 /* GeneratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA06222B233F29001184C8 /* GeneratorProtocol.swift */; };
+		1BFA06262B234028001184C8 /* SecondGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA06252B234027001184C8 /* SecondGame.swift */; };
+		1BFA06282B2340D2001184C8 /* SecondGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA06272B2340D2001184C8 /* SecondGameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,14 @@
 		1B82620A2B0CA69400DD376D /* GameSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B82620E2B0CA69400DD376D /* GameSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSwiftUITests.swift; sourceTree = "<group>"; };
 		1B8262102B0CA69400DD376D /* GameSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B82621D2B0CA69F00DD376D /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		1B8262222B0CE94200DD376D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1BDA5DAD2B1627A100FBDC28 /* FirstScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenVC.swift; sourceTree = "<group>"; };
+		1BFA061E2B233EDE001184C8 /* GameProtocolRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocolRound.swift; sourceTree = "<group>"; };
+		1BFA06202B233EF9001184C8 /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
+		1BFA06222B233F29001184C8 /* GeneratorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratorProtocol.swift; sourceTree = "<group>"; };
+		1BFA06252B234027001184C8 /* SecondGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGame.swift; sourceTree = "<group>"; };
+		1BFA06272B2340D2001184C8 /* SecondGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8262212B0CA78500DD376D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B4B04E32B16244C00BEC40F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				1B8261F12B0CA69300DD376D /* ViewController.swift */,
+				1B8262222B0CE94200DD376D /* SecondViewController.swift */,
+				1BDA5DAD2B1627A100FBDC28 /* FirstScreenVC.swift */,
+				1BFA06252B234027001184C8 /* SecondGame.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		1B8261E12B0CA69300DD376D = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +130,8 @@
 			children = (
 				1B8261ED2B0CA69300DD376D /* AppDelegate.swift */,
 				1B8261EF2B0CA69300DD376D /* SceneDelegate.swift */,
-				1B8261F12B0CA69300DD376D /* ViewController.swift */,
+				1BFA06242B233FFB001184C8 /* Model */,
+				1B4B04E32B16244C00BEC40F /* VC */,
 				1B8261F32B0CA69300DD376D /* Main.storyboard */,
 				1B8261F62B0CA69400DD376D /* Assets.xcassets */,
 				1B8261F82B0CA69400DD376D /* LaunchScreen.storyboard */,
@@ -127,6 +157,18 @@
 			path = GameSwiftUITests;
 			sourceTree = "<group>";
 		};
+		1BFA06242B233FFB001184C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B82621D2B0CA69F00DD376D /* GameModel.swift */,
+				1BFA06272B2340D2001184C8 /* SecondGameModel.swift */,
+				1BFA06222B233F29001184C8 /* GeneratorProtocol.swift */,
+				1BFA061E2B233EDE001184C8 /* GameProtocolRound.swift */,
+				1BFA06202B233EF9001184C8 /* GameProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +185,9 @@
 			dependencies = (
 			);
 			name = GameSwift;
+			packageProductDependencies = (
+				1B8262202B0CA78500DD376D /* SnapKit */,
+			);
 			productName = GameSwift;
 			productReference = 1B8261EA2B0CA69300DD376D /* GameSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +260,9 @@
 				Base,
 			);
 			mainGroup = 1B8261E12B0CA69300DD376D;
+			packageReferences = (
+				1B82621F2B0CA78500DD376D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1B8261EB2B0CA69300DD376D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BFA061F2B233EDE001184C8 /* GameProtocolRound.swift in Sources */,
+				1BFA06282B2340D2001184C8 /* SecondGameModel.swift in Sources */,
+				1BFA06262B234028001184C8 /* SecondGame.swift in Sources */,
+				1BFA06212B233EF9001184C8 /* GameProtocol.swift in Sources */,
 				1B8261F22B0CA69300DD376D /* ViewController.swift in Sources */,
+				1B82621E2B0CA69F00DD376D /* GameModel.swift in Sources */,
+				1BFA06232B233F29001184C8 /* GeneratorProtocol.swift in Sources */,
 				1B8261EE2B0CA69300DD376D /* AppDelegate.swift in Sources */,
+				1B8262232B0CE94200DD376D /* SecondViewController.swift in Sources */,
 				1B8261F02B0CA69300DD376D /* SceneDelegate.swift in Sources */,
+				1BDA5DAE2B1627A100FBDC28 /* FirstScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +652,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1B82621F2B0CA78500DD376D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1B8262202B0CA78500DD376D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1B82621F2B0CA78500DD376D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B8261E22B0CA69300DD376D /* Project object */;
 }
